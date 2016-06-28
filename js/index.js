@@ -5,7 +5,7 @@ var index = {
         index.listReminder();
     },
     
-    //seter o formulario com o onsubmit
+    
     
     setForm: function(){
         var form = document.getElementById('form');
@@ -17,7 +17,7 @@ var index = {
         }
     },
     
-       //salva os dados
+       
     
     saveReminder: function(form){
         var reminder = {};
@@ -25,7 +25,7 @@ var index = {
         reminder.data = form.data.value;
         reminder.hora = form.hora.value;
         
-        if(reminderDAO.save(reminder == reminderDAO.NEW){
+        if(reminderDAO.save(reminder) == reminderDAO.NEW){
            tableController.addItem(reminder);
         } else {
             tableController.clearList();
@@ -49,8 +49,10 @@ var index = {
             if (reminderList && reminderList.length){
                 tableController.addList(reminderList);
             }
-        
-	}, 
+        }
+
+};
+//inicialização
           
 reminderDAO.unserializeAndParse();
 index.init();
