@@ -1,0 +1,30 @@
+
+
+
+/* CSS Document */
+
+.dados > usuarios-form {
+	width: 400px;
+	margin: 50px auto;
+}
+
+.tabela-usuario .control-label {
+	width: 100px;
+}
+
+.tabela-usuario .controls {
+  margin-left: 110px;
+}
+
+.inicio{
+	
+	margin-left: 110 px;
+}
+.espaco{
+	width: 67px;
+}
+
+centralizar{
+	position: center;
+	font-size: 40cm;
+}
