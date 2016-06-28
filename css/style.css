@@ -3,16 +3,17 @@
 
 /* CSS Document */
 
-.dados > usuarios-form {
+
+.dados > reminder-form {
 	width: 400px;
 	margin: 50px auto;
 }
 
-.tabela-usuario .control-label {
+.reminder .control-label {
 	width: 100px;
 }
 
-.tabela-usuario .controls {
+.reminder .controls {
   margin-left: 110px;
 }
 
@@ -20,7 +21,7 @@
 	
 	margin-left: 110 px;
 }
-.espaco{
+.form{
 	width: 67px;
 }
 
