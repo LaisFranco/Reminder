@@ -4,28 +4,28 @@
 /* CSS Document */
 
 
-.dados > reminder-form {
-	width: 400px;
-	margin: 50px auto;
+
+
+
+
+body{
+    padding: 10px
+}
+.center-component{
+    float: none;
+    margin: 0 auto; 
+}
+.btn-add{
+    position: relative;
+    top: 10px;
 }
 
-.reminder .control-label {
-	width: 100px;
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    border: none;
 }
 
-.reminder .controls {
-  margin-left: 110px;
+tr, td{
+    padding: 5px;
 }
 
-.inicio{
-	
-	margin-left: 110 px;
-}
-.form{
-	width: 67px;
-}
 
-centralizar{
-	position: center;
-	font-size: 40cm;
-}

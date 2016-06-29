@@ -1,41 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>Reminder</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
         
         
-        <div class="dados">
+       <div class="container">
+        <div class="col-md-8 center-component">
+            <div class="panel panel-default">
          <form action="" id ="form" class="reminder-form">
-            <label>
-                <p class="form">
-                    Reminder
-				</p>
+                <div class="form-group col-sm-4">
+                    <label for="reminder"><b>Reminder</b></label>
 				    <input type="text" placeholder="Final exam" id="final" required="required">
-				</label>
-                <label>
-                 <p class="form">
-                    Date
-                </p>
-                    <input type="date" placeholder="28/06/2016" id="data">
-                </label>
-             <label>
-               <p class="form"> 
-                 Time
-                </p>
+             </div>
+                
+                <form method="post" id="form-add">
+                 <div class="form-group col-sm-4">
+                     <label for="date"><b>Date</b></label>
+                     <input type="date" placeholder="28/06/2016" id="data">
+                </div>
+                    
+               <div class="form-group col-sm-4"> 
+                   <label for="time"><b>Time</b></label>  
                  <input type="time" placeholder="19:00" id="hora">
-                </label>
+                    </div>
              
-        <div class="botoes">
-             <input type="submit" name="" value="Add" id="Add">
+        <div class="form-group col-sm-4">
+            <button type="submit" class="btn btn-default btn-add">Add</button>
              
         </div>
+             
         
-        
+        <div class="container">
+        <div class="col-md-8 center-component">
+            <div class="panel panel-default">
         <div id="table">
 			<table id="reminder" class="table table-bordered table-striped">
 				
@@ -48,7 +50,10 @@
 				</thead>
 				<tbody></tbody>
 			</table>
-
+                </div>
+            </div>
+            </div>
+            
 		
 		</div>
              
