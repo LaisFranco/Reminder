@@ -8,7 +8,7 @@ var index = {
     
     
     setForm: function(){
-        var form = document.getElementById('form');
+        var form = document.getElementById('form-reminder');
         if(form){
             form.onsubmit = function(){
                 index.saveReminder(form);
