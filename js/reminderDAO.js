@@ -48,11 +48,8 @@ var reminderDAO =  {
                 item = list[i];
                 return i;
             }
-        }
-}
-            return -1 ;
-},
-          
+             return -1 ;
+        },          
           
     serializeAndSave: function() {
 		var list = reminderDAO.list;
